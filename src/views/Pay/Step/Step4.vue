@@ -1,21 +1,15 @@
 <template>
   <div>
-    <TopNav/>
-    <router-view/>
 
   </div>
 </template>
 
 <script>
 export default {
-
+  name: "Step4"
 }
 </script>
 
-<style>
-*{
-  margin: 0;
-  padding: 0;
-}
+<style scoped>
 
 </style>

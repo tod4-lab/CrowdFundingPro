@@ -1,21 +1,18 @@
 <template>
-  <div>
-    <TopNav/>
+  <div class="crowdFunding">
     <router-view/>
-
   </div>
 </template>
 
 <script>
 export default {
-
+  name: "index",
 }
 </script>
 
-<style>
-*{
-  margin: 0;
-  padding: 0;
-}
+<style scoped>
 
+.crowdFunding {
+  margin-top: 120px;
+}
 </style>
